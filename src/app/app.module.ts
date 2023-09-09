@@ -17,4 +17,8 @@ import { OrdersComponent } from './orders/orders.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+  constructor(){
+    console.log("app module loaded");
+  }
+ }
